@@ -72,6 +72,7 @@ def makeCards():
         writeme.append("{0:<36} {1:<10}".format(prefix+"_"+bg+"_a0_"+cat,"flatParam"))
         writeme.append("{0:<36} {1:<10}".format(prefix+"_"+bg+"_a1_"+cat,"flatParam"))
         writeme.append("{0:<36} {1:<10}".format(prefix+"_"+bg+"_a2_"+cat,"flatParam"))
+        writeme.append("{0:<36} {1:<10}".format(prefix+"_"+bg+"_"+cat+"_norm","flatParam"))
         writeme.append("\n")
         
         # ______________________________________________________________________

@@ -11,8 +11,11 @@ class AutoVivification(dict):
             return value
 
 events = {
-"amumu_1b1f": "amumuFile_MuMu2012ABCD_sasha_17.root",
-"amumu_1b1c": "amumuFile_MuMu2012ABCD_sasha_28.root",
+#"amumu_1b1f": "amumuFile_MuMu2012ABCD_sasha_17.root",
+#"amumu_1b1c": "amumuFile_MuMu2012ABCD_sasha_28.root",
+
+"amumu_1b1f": "amumuFile_MuMu2012ABCD_sasha_44.root",
+"amumu_1b1c": "amumuFile_MuMu2012ABCD_sasha_46.root",
 }
 
 tname = "amumuTree_DATA"

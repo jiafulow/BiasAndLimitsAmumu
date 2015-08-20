@@ -15,7 +15,7 @@ class FitBuilder:
         return self.BuildDict[funcName](**kargs)
     
     
-    def BuildGaussian(self, mean=30, mean_lo=14, mean_hi=68, sigma=1, sigma_lo=0.01, sigma_hi=10.0):
+    def BuildGaussian(self, mean=30, mean_lo=14, mean_hi=68, sigma=1, sigma_lo=0.50, sigma_hi=10.0):
         self.ws.factory("Gaussian::gauss(x, mean[%s,%s,%s], sigma[%s,%s,%s])" % (str(mean), str(mean_lo), str(mean_hi), str(sigma), str(sigma_lo), str(sigma_hi)))
         return self.ws.pdf("gauss")
     
